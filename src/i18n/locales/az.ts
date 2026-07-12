@@ -10,7 +10,7 @@ export const az: Resources = {
   },
   hero: {
     eyebrow: 'Proqram təminatı mühəndisi',
-    desc: 'Bir məhsulu əvvəldən sonuna qədər qurmağı sevirəm: istifadəçinin gördüyü tətbiqdən tutmuş, arxa planda işi görən sistemlərə qədər. Hazırda Alievs Space-də kiçik bir komandaya rəhbərlik edirəm.',
+    desc: 'Bir layihəni əvvəldən sonuna qədər qurmağı sevirəm: istifadəçinin gördüyü tətbiqdən tutmuş, arxa planda işi görən sistemlərə qədər. Hazırda Alievs Space-də kiçik bir komandaya rəhbərlik edirəm.',
     viewWork: 'İşlərə bax',
   },
   about: {
@@ -23,7 +23,7 @@ export const az: Resources = {
   },
   work: {
     h1: 'Qurduğum bəzi işlər.',
-    h2: 'Hazırladığım məhsullar və alətlər.',
+    h2: 'Hazırladığım layihələr və alətlər.',
   },
   raven: {
     eyebrow: 'Şəxsi layihəm',

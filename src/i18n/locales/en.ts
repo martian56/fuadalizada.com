@@ -21,7 +21,7 @@ export const en = {
   },
   work: {
     h1: 'Some things I built.',
-    h2: "Products and tools I've shipped.",
+    h2: "Projects and tools I've shipped.",
   },
   raven: {
     eyebrow: 'A project of my own',
