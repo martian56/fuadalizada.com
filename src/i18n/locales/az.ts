@@ -1,0 +1,123 @@
+import type { Resources } from './en'
+
+export const az: Resources = {
+  nav: {
+    work: 'İşlər',
+    about: 'Haqqımda',
+    experience: 'Təcrübə',
+    contact: 'Əlaqə',
+    getInTouch: 'Əlaqə saxla',
+  },
+  hero: {
+    eyebrow: 'Proqram təminatı mühəndisi',
+    desc: 'Bir məhsulu əvvəldən sonuna qədər qurmağı sevirəm: istifadəçinin gördüyü tətbiqdən tutmuş, arxa planda işi görən sistemlərə qədər. Hazırda Alievs Space-də kiçik bir komandaya rəhbərlik edirəm.',
+    viewWork: 'İşlərə bax',
+  },
+  about: {
+    label: 'Haqqımda',
+    h1: 'Mən Fuad. Saytlar, daxili sistemlər,',
+    h2: 'ERP və CRM sistemləri,',
+    h3: 'eləcə də mobil və masaüstü tətbiqlər qururam.',
+    paragraph:
+      'Son bir neçə ildir hər cür proqram təminatı qururam: saytlar, daxili alətlər, ERP və CRM sistemləri, mobil və masaüstü tətbiqlər. Əsasən Python, TypeScript, Java və Go ilə işləyirəm; iş daha aşağı səviyyə tələb edəndə Rust və ya C-yə keçirəm. Bunlarla yanaşı, öz hostinq və tələbə platformam olan Ufazien-i idarə edirəm və özüm sıfırdan Raven adlı proqramlaşdırma dili yaratmışam. Həmçinin UFAZ-da Kompüter Elmləri üzrə təhsil alıram.',
+  },
+  work: {
+    h1: 'Qurduğum bəzi işlər.',
+    h2: 'Hazırladığım məhsullar və alətlər.',
+  },
+  raven: {
+    eyebrow: 'Şəxsi layihəm',
+    heading: 'Öz proqramlaşdırma dilim',
+    desc: 'Rust ilə sıfırdan qurduğum proqramlaşdırma dili. İstədiyim xüsusiyyətlər heç bir dildə bir yerə yığışmırdı: C++ kimi sürətli, Rust kimi təhlükəsiz, amma yenə də asan oxunan. Ona görə də özüm yaratdım. Sonra da dayanmadım və onun ətrafında bütöv bir ekosistem qurdum: kod agenti (rook), GUI alətlər dəsti (quill), terminal UI framework-u (plumage), paket meneceri (rvpm) və birbaşa Raven-in özündə yazılmış verilənlər bazası klientləri.',
+    visit: 'Raven-ə bax',
+    source: 'Github',
+  },
+  projects: {
+    ufazien:
+      'Ən böyük layihəm. Tələbə platforması kimi başladı, sonra böyüdükcə böyüdü: GPA hesablayıcıları, pulsuz hostinq, bloqlar, süni intellektlə dərs köməyi, icmalar. Digər işlərimin çoxu da elə bu brend altındadır.',
+    lumnicode:
+      'Kod yazarkən köməyə gələn süni intellekt aləti: özü kod yazır və təkliflər verir ki, daha tez irəliləyəsən. Təkbaşına da, komanda ilə eyni layihədə işləyəndə də eyni dərəcədə yaxşı işləyir.',
+    devlane:
+      'Tapşırıqlar, sprintlər, sənədlər və məsələlərin idarə olunması üçün Jira və Linear-ə açıq mənbəli alternativ. Onu ona görə qurdum ki, istifadə etdiyimiz alətlər həmişə işin özündən daha ağır gəlirdi.',
+    cleat:
+      'GitHub hesabları və orqanizasiyaları üçün təhlükəsizlik, baxım və audit aləti. Gözdən qaçan riskli tənzimləmələri və unudulmuş girişləri üzə çıxarır.',
+    chatops:
+      'Bütün serverlərini idarə etmək üçün tək bir panel: canlı göstəricilər, Docker idarəetməsi, bildirişlər və terminal. Beləcə beş ayrı alət arasında ora-bura qaçmağa son qoyursan.',
+    quantadb:
+      'Real yük altında da sürətli və sabit qalsın deyə qurduğum verilənlər bazası idarəetmə sistemi.',
+    rustfuzz:
+      'Saytları sınağa çəkmək və ən gözlənilməz, nadir xətaları üzə çıxarmaq üçün Rust-da yazdığım veb fuzzer.',
+  },
+  experience: {
+    h1: 'İndiyə qədər keçdiyim yol.',
+    h2: 'İş yerləri, bir az frilans və oxuduğum universitet.',
+    education: 'Təhsil',
+    items: [
+      {
+        period: '2026 – İndi',
+        role: 'Süni İntellekt Mühəndisi',
+        company: 'Move32',
+        desc: 'Böyük dil modelləri ilə işləyirəm: onların ətrafında agentlər və pipeline-lar qururam, DSPy və GEPA kimi alətlərlə isə onlardan real nəticə çıxarıram.',
+      },
+      {
+        period: '2025 – İndi',
+        role: 'İnkişaf Rəhbəri',
+        company: 'Alievs Space',
+        desc: 'Eyni anda bir neçə layihədə developer komandasına rəhbərlik edirəm.',
+      },
+      {
+        period: '2025',
+        role: 'Python Developer',
+        company: 'SEM Beynəlxalq Yayın Evi',
+        desc: 'Onların onlayn kitab mağazasını Django, PostgreSQL, Docker və Nginx ilə sıfırdan qurdum.',
+      },
+      {
+        period: '2024 – 2025',
+        role: 'Proqram təminatı developeri',
+        company: 'Neuron Technologies',
+        desc: 'Korporativ proqram təminatı üzərində işlədim; əsas diqqətim işlərin etibarlı və sürətli qalması idi.',
+      },
+      {
+        period: '2023 – 2025',
+        role: 'Bug Bounty ovçusu',
+        company: 'HackerOne',
+        desc: 'Təhlükəsizlik boşluqları tapıb onları OWASP prinsiplərinə uyğun, düzgün şəkildə bildirirdim; işin böyük hissəsi şəbəkə təhlili idi.',
+      },
+      {
+        period: '2022 – 2023',
+        role: 'Full-stack Developer',
+        company: 'Freelancer.com',
+        desc: 'Müştərilər üçün React, Django və ya Flask, həmçinin PostgreSQL ilə full-stack tətbiqlər qurdum; bir xeyli də üçüncü tərəf API-ları ilə işlədim.',
+      },
+    ],
+    edu: [
+      {
+        period: '2023 – 2027',
+        role: 'Bakalavr, Kompüter Elmləri',
+        company: 'Fransa-Azərbaycan Universiteti (UFAZ)',
+        desc: 'Proqram mühəndisliyinin əsasları, C proqramlaşdırması və xeyli komanda işi.',
+      },
+    ],
+  },
+  skills: {
+    h1: 'İşlətdiyim Texnologiyalar',
+    groups: {
+      languages: 'Dillər',
+      frontend: 'Frontend',
+      backend: 'Backend',
+      databases: 'Verilənlər bazaları',
+      cloud: 'Bulud',
+      devops: 'DevOps',
+      security: 'Təhlükəsizlik',
+      systems: 'Sistemlər və kompilyatorlar',
+    },
+  },
+  contact: {
+    label: 'Əlaqə',
+    h1: 'Ağlında bir fikir var?',
+    h2: 'Gəl birlikdə quraq.',
+    whatsapp: 'Salam Fuad! Portfolio saytından yazıram və əlaqə saxlamaq istəyirəm.',
+    socials: { github: 'GitHub', website: 'Sayt', email: 'E-poçt' },
+    footer: '© {{year}} Fuad Alizada',
+  },
+}
