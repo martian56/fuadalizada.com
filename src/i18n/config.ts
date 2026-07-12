@@ -12,11 +12,11 @@ i18n
       en: { translation: en },
       az: { translation: az },
     },
-    fallbackLng: 'en',
+    fallbackLng: 'az',
     supportedLngs: ['en', 'az'],
     interpolation: { escapeValue: false },
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['localStorage'],
       caches: ['localStorage'],
     },
   })
@@ -24,7 +24,7 @@ i18n
 const applyLang = (lng: string) => {
   if (typeof document !== 'undefined') document.documentElement.lang = lng
 }
-applyLang(i18n.resolvedLanguage ?? 'en')
+applyLang(i18n.resolvedLanguage ?? 'az')
 i18n.on('languageChanged', applyLang)
 
 export default i18n
