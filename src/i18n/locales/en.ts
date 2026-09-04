@@ -33,18 +33,36 @@ export const en = {
   projects: {
     ufazien:
       'My biggest project. It started as a student platform and kept growing: GPA tools, free hosting, blogs, AI study help, communities. Most of my other work lives under this brand.',
+    redcell:
+      'A red team platform where LLM agents run the whole pentest inside a Kali container and write the report at the end. You watch it live, steer it from chat, and take the terminal or the browser back whenever you want.',
     lumnicode:
       'An AI coding assistant that writes and suggests code while you build, so you move faster. It holds up with a full team in the same project, not just one person.',
+    orgmem:
+      'A team wiki that people and AI agents both write to. It sits in your meetings, puts a name on every line, and answers questions about what the team already decided.',
     devlane:
       'An open-source take on Jira and Linear for tasks, sprints, docs, and triage. I built it because the tools we were using always felt heavier than the work itself.',
+    alievsLms:
+      'A learning platform for teaching businesses: groups, schedule, attendance, homework, exams, live classes in the browser, and billing. Owners, teachers and students all work off the same data.',
+    rook:
+      'A coding agent that lives in your terminal, written in Raven. It reads and edits your files, runs commands once you approve them, and talks to whichever model you point it at.',
+    epointSandbox:
+      'A local copy of the epoint.az payment gateway, so you can build and test an integration without a merchant account. One container gives you the API, the checkout page, callbacks, and a dashboard.',
     cleat:
       'Security, maintenance, and auditing for your GitHub accounts and organizations. It catches the risky settings and stale access you would otherwise miss.',
     chatops:
       'One dashboard for all your servers: live metrics, Docker controls, alerts, and a terminal, so you stop hopping between five different tools.',
+    sempublishing:
+      'The site for SEM Publishing House: a catalogue of books and authors, open access titles anyone can download free, and a shop on top. I built the API, the public site, and the staff dashboard.',
     quantadb:
       'A database management system I built to stay fast and steady once you actually put it under real load.',
     rustfuzz:
       'A web fuzzer I wrote in Rust to hammer on sites and shake out the strange edge-case bugs.',
+    epointPython:
+      'A Python client for epoint.az covering all 30 endpoints, sync and async, typed throughout. It handles the signing and the callback checks, which is where most integrations go wrong.',
+    payriff:
+      'A Python client for the Payriff payment gateway. Sync and async, typed all the way through, and httpx is the only thing it pulls in.',
+    onesms:
+      'A Python client for the 1sms.az SMS API. It sends OTP and notifications, retries failed requests on its own, and verifies webhook signatures, with an async version of everything.',
   },
   experience: {
     h1: 'The road so far.',
