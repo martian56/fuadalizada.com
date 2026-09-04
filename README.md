@@ -26,4 +26,5 @@ npm run preview   # preview the production build
 - `src/components`: the sections (hero, about, work gallery, Raven, experience, skills, contact), plus a few small text-animation helpers.
 - `src/i18n/locales/en.ts` and `az.ts`: every piece of copy on the site, so both languages stay in step. Adding a language is just another file here.
 - `src/data.ts`: project links, images and tags.
+- `public/projects`: card images for the projects that aren't on ImageKit, cropped to 2:1.
 - `public/me-working.mp4`: the hero background video.
