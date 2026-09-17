@@ -13,7 +13,7 @@ export const en = {
   },
   about: {
     label: 'About',
-    h1: "I'm Fuad. I build websites, internal systems,",
+    h1: 'I build websites, internal systems,',
     h2: 'ERP and CRM systems,',
     h3: 'plus mobile and desktop apps.',
     paragraph:
@@ -72,14 +72,14 @@ export const en = {
       {
         period: '2026 – Now',
         role: 'AI Engineer',
-        company: 'Move32',
-        desc: 'Working with large language models: I build the agents and pipelines around them and use tools like DSPy and GEPA to get real results out of them.',
+        company: 'Apercura',
+        desc: 'I work with LLMs, building the agents, harnesses and pipelines around them and optimizing them with tools like DSPy and GEPA. The rest of the time I research RL data and RL environments, and build OrgMem end to end.',
       },
       {
         period: '2025 – Now',
         role: 'Head of Development',
         company: 'Alievs Space',
-        desc: 'Running the dev team across a few projects at once.',
+        desc: 'Running the dev teams across a few projects at once.',
       },
       {
         period: '2025',

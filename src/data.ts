@@ -44,7 +44,7 @@ export const projects: Project[] = [
   },
   {
     id: 'orgmem',
-    title: 'orgmem',
+    title: 'OrgMem',
     tags: ['AI', 'FastAPI', 'React', 'LiveKit'],
     live: 'https://orgmem.app',
     img: '/projects/orgmem.webp',

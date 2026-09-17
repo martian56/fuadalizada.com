@@ -15,7 +15,7 @@ export const az: Resources = {
   },
   about: {
     label: 'Haqqımda',
-    h1: 'Mən Fuad. Saytlar, daxili sistemlər,',
+    h1: 'Saytlar, daxili sistemlər,',
     h2: 'ERP və CRM sistemləri,',
     h3: 'eləcə də mobil və masaüstü tətbiqlər qururam.',
     paragraph:
@@ -74,14 +74,14 @@ export const az: Resources = {
       {
         period: '2026 – İndi',
         role: 'Süni İntellekt Mühəndisi',
-        company: 'Move32',
-        desc: 'Böyük dil modelləri ilə işləyirəm: onların ətrafında agentlər və pipeline-lar qururam, DSPy və GEPA kimi alətlərlə isə onlardan real nəticə çıxarıram.',
+        company: 'Apercura',
+        desc: 'LLM-lər ilə işləyirəm, onların ətrafında agentlər, harness-lər və pipeline-lar qururam, DSPy və GEPA kimi alətlərlə onları optimizasiya edirəm. Digər vaxtlarda isə RL data, RL environment mövzularında araşdırmalar edir, OrgMem məhsulunu başdan sona develop edirəm.',
       },
       {
         period: '2025 – İndi',
         role: 'İnkişaf Rəhbəri',
         company: 'Alievs Space',
-        desc: 'Eyni anda bir neçə layihədə developer komandasına rəhbərlik edirəm.',
+        desc: 'Eyni anda bir neçə layihədə developer komandalarına rəhbərlik edirəm.',
       },
       {
         period: '2025',
