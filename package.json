@@ -7,10 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "format": "",
-    "format:fix": "",
-    "lint": "",
-    "lint:fix": ""
+    "format" : "",
+    "format:fix" : "",
+    "lint" : "",
+    "lint:fix" : ""
   },
   "dependencies": {
     "i18next": "^26.3.6",
