@@ -29,7 +29,7 @@ Here's what's on it.
 
 A programming language I'm building from scratch in Rust: the speed of C++, the safety of Rust, and code you can still read. Around it there's a whole ecosystem: a coding agent (rook), a GUI toolkit, a terminal UI framework, a package manager, and database clients written in Raven itself.
 
-[raven.ufazien.com](https://raven.ufazien.com) · [GitHub](https://github.com/martian56/raven)
+[raven.ufazien.com](https://raven.ufazien.com) · [![GitHub stars](https://img.shields.io/github/stars/martian56/raven?style=flat-square&logo=github&label=stars&color=14110E)](https://github.com/martian56/raven)
 
 ## Projects
 
@@ -39,13 +39,13 @@ A programming language I'm building from scratch in Rust: the speed of C++, the 
       <img src="public/projects/ufazien.webp" alt="Ufazien" />
       <h3>Ufazien</h3>
       <p>My biggest project. It started as a student platform and kept growing: GPA tools, free hosting, blogs, AI study help, communities.</p>
-      <a href="https://ufazien.com">Live</a> · <a href="https://github.com/martian56/ufazien">GitHub</a>
+      <a href="https://ufazien.com">Live</a> · <a href="https://github.com/martian56/ufazien"><img src="https://img.shields.io/github/stars/martian56/ufazien?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
     <td width="50%" valign="top">
       <img src="public/projects/redcell.webp" alt="REDCELL" />
       <h3>REDCELL</h3>
       <p>A red team platform where LLM agents run the whole pentest inside a Kali container and write the report at the end. You watch live and can take the wheel any time.</p>
-      <a href="https://github.com/martian56/redcell">GitHub</a>
+      <a href="https://github.com/martian56/redcell"><img src="https://img.shields.io/github/stars/martian56/redcell?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ A programming language I'm building from scratch in Rust: the speed of C++, the 
       <img src="https://ik.imagekit.io/ufazien/portfolio/lumnicode-portfolio.png?updatedAt=1759013527172" alt="LumniCode" />
       <h3>LumniCode</h3>
       <p>An AI coding assistant that writes and suggests code while you build, and holds up with a whole team in the same project.</p>
-      <a href="https://lumnicode.ufazien.com">Live</a> · <a href="https://github.com/martian56/lumnicode">GitHub</a>
+      <a href="https://lumnicode.ufazien.com">Live</a> · <a href="https://github.com/martian56/lumnicode"><img src="https://img.shields.io/github/stars/martian56/lumnicode?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
   </tr>
   <tr>
@@ -73,7 +73,7 @@ A programming language I'm building from scratch in Rust: the speed of C++, the 
       <img src="https://ik.imagekit.io/ufazien/portfolio/Screenshot%202026-04-04%20132120.png?updatedAt=1775294999547" alt="Devlane" />
       <h3>Devlane</h3>
       <p>An open-source take on Jira and Linear for tasks, sprints, docs and triage, without the weight.</p>
-      <a href="https://devlane.dev">Live</a> · <a href="https://github.com/Devlaner/devlane">GitHub</a>
+      <a href="https://devlane.dev">Live</a> · <a href="https://github.com/Devlaner/devlane"><img src="https://img.shields.io/github/stars/Devlaner/devlane?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ A programming language I'm building from scratch in Rust: the speed of C++, the 
       <img src="public/projects/rook.webp" alt="rook" />
       <h3>rook</h3>
       <p>A coding agent for the terminal, written in Raven. It edits your files, runs commands once you approve them, and works with any model.</p>
-      <a href="https://github.com/martian56/rook">GitHub</a>
+      <a href="https://github.com/martian56/rook"><img src="https://img.shields.io/github/stars/martian56/rook?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
   </tr>
   <tr>
@@ -95,13 +95,13 @@ A programming language I'm building from scratch in Rust: the speed of C++, the 
       <img src="public/projects/epoint-sandbox.webp" alt="Epoint Sandbox" />
       <h3>Epoint Sandbox</h3>
       <p>A local copy of the epoint.az payment gateway: API, checkout page, callbacks and a dashboard in one container, no merchant account needed.</p>
-      <a href="https://github.com/martian56/epoint-sandbox">GitHub</a>
+      <a href="https://github.com/martian56/epoint-sandbox"><img src="https://img.shields.io/github/stars/martian56/epoint-sandbox?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
     <td width="50%" valign="top">
       <img src="https://ik.imagekit.io/ufazien/portfolio/cleat-image.png" alt="Cleat" />
       <h3>Cleat</h3>
       <p>Security and auditing for GitHub accounts and organizations. It catches the risky settings and stale access you'd otherwise miss.</p>
-      <a href="https://cleat.ufazien.com">Live</a> · <a href="https://github.com/Devlaner/cleat">GitHub</a>
+      <a href="https://cleat.ufazien.com">Live</a> · <a href="https://github.com/Devlaner/cleat"><img src="https://img.shields.io/github/stars/Devlaner/cleat?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
   </tr>
   <tr>
@@ -109,7 +109,7 @@ A programming language I'm building from scratch in Rust: the speed of C++, the 
       <img src="https://ik.imagekit.io/ufazien/portfolio/chatops-home.png" alt="ChatOps" />
       <h3>ChatOps</h3>
       <p>One dashboard for all your servers: live metrics, Docker controls, alerts and a terminal.</p>
-      <a href="https://chatops.ufazien.com">Live</a> · <a href="https://github.com/martian56/chatops">GitHub</a>
+      <a href="https://chatops.ufazien.com">Live</a> · <a href="https://github.com/martian56/chatops"><img src="https://img.shields.io/github/stars/martian56/chatops?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
     <td width="50%" valign="top">
       <img src="public/projects/sempublishing.webp" alt="SEM Publishing" />
@@ -123,18 +123,18 @@ A programming language I'm building from scratch in Rust: the speed of C++, the 
       <img src="https://ik.imagekit.io/ufazien/portfolio/quantadb-portfolio-image.png?updatedAt=1759252467389" alt="Quantadb" />
       <h3>Quantadb</h3>
       <p>A database management system built to stay fast and steady under real load.</p>
-      <a href="https://quantadb.ufazien.com">Live</a> · <a href="https://github.com/martian56/quantadb">GitHub</a>
+      <a href="https://quantadb.ufazien.com">Live</a> · <a href="https://github.com/martian56/quantadb"><img src="https://img.shields.io/github/stars/martian56/quantadb?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
     <td width="50%" valign="top">
       <img src="https://ik.imagekit.io/ufazien/portfolio/rustfuzz-demo.png?updatedAt=1759005852062" alt="RustFuzz" />
       <h3>RustFuzz</h3>
       <p>A web fuzzer in Rust that hammers on sites to shake out the strange edge-case bugs.</p>
-      <a href="https://rustfuzz.ufazien.com">Live</a> · <a href="https://github.com/martian56/rustfuzz">GitHub</a>
+      <a href="https://rustfuzz.ufazien.com">Live</a> · <a href="https://github.com/martian56/rustfuzz"><img src="https://img.shields.io/github/stars/martian56/rustfuzz?style=flat-square&logo=github&label=stars&color=14110E" alt="GitHub stars" align="absmiddle" /></a>
     </td>
   </tr>
 </table>
 
-And three small Python SDKs, all sync and async and fully typed: [**epoint**](https://github.com/martian56/epoint-python) for the epoint.az gateway, [**payriff**](https://github.com/martian56/payriff) for Payriff, and [**onesms**](https://github.com/martian56/onesms-sdk) for the 1sms.az SMS API.
+And three small Python SDKs, all sync and async and fully typed: [**epoint**](https://github.com/martian56/epoint-python) ![stars](https://img.shields.io/github/stars/martian56/epoint-python?style=flat-square&logo=github&label=stars&color=14110E) for the epoint.az gateway, [**payriff**](https://github.com/martian56/payriff) ![stars](https://img.shields.io/github/stars/martian56/payriff?style=flat-square&logo=github&label=stars&color=14110E) for Payriff, and [**onesms**](https://github.com/martian56/onesms-sdk) ![stars](https://img.shields.io/github/stars/martian56/onesms-sdk?style=flat-square&logo=github&label=stars&color=14110E) for the 1sms.az SMS API.
 
 ## Experience
 

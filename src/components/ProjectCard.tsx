@@ -1,10 +1,12 @@
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, Star } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { GithubIcon } from './icons'
 import type { Project } from '../data'
+import { useStars } from '../useStars'
 
 export default function ProjectCard({ project }: { project: Project }) {
   const { t } = useTranslation()
+  const stars = useStars(project.github)
 
   return (
     <article className="group flex h-[62vh] max-h-[460px] w-[80vw] max-w-[400px] shrink-0 snap-center flex-col overflow-hidden rounded-3xl border border-white/[0.06] bg-[#141414]">
@@ -23,6 +25,11 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div className="flex items-start justify-between gap-3">
           <h3 className="text-xl font-medium text-primary">{project.title}</h3>
           <div className="flex items-center gap-2 pt-1">
+            {stars !== null && (
+              <span className="inline-flex items-center gap-1 text-xs text-gray-400">
+                <Star className="h-3.5 w-3.5 fill-current text-primary" /> {stars}
+              </span>
+            )}
             {project.github && (
               <a
                 href={project.github}

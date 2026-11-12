@@ -4,11 +4,13 @@ import { useTranslation } from 'react-i18next'
 import WordsPullUpMultiStyle from './WordsPullUpMultiStyle'
 import { GithubIcon } from './icons'
 import { raven } from '../data'
+import { useStars } from '../useStars'
 
 const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1]
 
 export default function Raven() {
   const { t } = useTranslation()
+  const stars = useStars(raven.github, raven.stars)
 
   return (
     <section className="relative bg-black px-4 py-24 sm:px-6 md:py-32">
@@ -35,7 +37,7 @@ export default function Raven() {
             <div className="mb-4 flex items-center gap-4">
               <h3 className="text-3xl font-medium text-primary sm:text-4xl">{raven.title}</h3>
               <span className="inline-flex items-center gap-1 text-xs text-gray-400">
-                <Star className="h-3.5 w-3.5 fill-current text-primary" /> {raven.stars}
+                <Star className="h-3.5 w-3.5 fill-current text-primary" /> {stars}
               </span>
             </div>
             <p className="max-w-md text-sm leading-relaxed text-gray-400 sm:text-base">

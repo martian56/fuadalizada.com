@@ -2,7 +2,7 @@ const IK = 'https://ik.imagekit.io/ufazien/portfolio'
 
 export const raven = {
   title: 'Raven',
-  stars: 35,
+  stars: 68,
   tags: ['Rust', 'Compiler', 'Lexer / Parser', 'Type Checking', 'Language Design'],
   live: 'https://raven.ufazien.com',
   github: 'https://github.com/martian56/raven',
