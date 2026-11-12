@@ -35,6 +35,8 @@ export const en = {
       'My biggest project. It started as a student platform and kept growing: GPA tools, free hosting, blogs, AI study help, communities. Most of my other work lives under this brand.',
     redcell:
       'A red team platform where LLM agents run the whole pentest inside a Kali container and write the report at the end. You watch it live, steer it from chat, and take the terminal or the browser back whenever you want.',
+    onemax:
+      'A 1+1 membership club for cafés and restaurants in Baku: order two, pay for one. Members show a QR code that changes every minute, kassirs scan it, and venue owners see who came in. Four apps on one API: member, partner, admin and field staff.',
     lumnicode:
       'An AI coding assistant that writes and suggests code while you build, so you move faster. It holds up with a full team in the same project, not just one person.',
     orgmem:

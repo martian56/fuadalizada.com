@@ -25,7 +25,7 @@ export const projects: Project[] = [
     tags: ['React 19', 'Django', 'AWS', 'PostgreSQL'],
     live: 'https://ufazien.com',
     github: 'https://github.com/martian56/ufazien',
-    img: `${IK}/Screenshot%202025-09-07%20162309.png?updatedAt=1762684351209`,
+    img: '/projects/ufazien.webp',
   },
   {
     id: 'redcell',
@@ -33,6 +33,14 @@ export const projects: Project[] = [
     tags: ['AI Agents', 'Security', 'LangGraph', 'FastAPI'],
     github: 'https://github.com/martian56/redcell',
     img: '/projects/redcell.webp',
+  },
+  {
+    id: 'onemax',
+    title: 'OneMax',
+    tags: ['FastAPI', 'Next.js', 'PostgreSQL', 'Redis'],
+    live: 'https://onemax.az',
+    github: 'https://github.com/onemax-az',
+    img: '/projects/onemax.webp',
   },
   {
     id: 'lumnicode',

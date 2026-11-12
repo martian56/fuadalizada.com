@@ -37,6 +37,8 @@ export const az: Resources = {
       'Ən böyük layihəm. Tələbə platforması kimi başladı, sonra böyüdükcə böyüdü: GPA hesablayıcıları, pulsuz hostinq, bloqlar, süni intellektlə dərs köməyi, icmalar. Digər işlərimin çoxu da elə bu brend altındadır.',
     redcell:
       'LLM agentlərinin bütöv bir penetrasiya testini Kali konteynerinin içində aparıb sonunda hesabatı da özlərinin yazdığı red team platforması. Gedişatı canlı izləyir, çatdan yönləndirir, istədiyin an terminalı və ya brauzeri öz əlinə alırsan.',
+    onemax:
+      'Bakının kafe və restoranları üçün 1+1 üzvlük klubu: ikisini sifariş edirsən, birinin pulunu verirsən. Üzv hər dəqiqə yenilənən QR kodu göstərir, kassir skan edir, məkan sahibi isə kimin gəldiyini paneldə görür. Bir API üzərində dörd tətbiq: üzv, partnyor, admin və sahə işçiləri üçün.',
     lumnicode:
       'Kod yazarkən köməyə gələn süni intellekt aləti: özü kod yazır və təkliflər verir ki, daha tez irəliləyəsən. Təkbaşına da, komanda ilə eyni layihədə işləyəndə də eyni dərəcədə yaxşı işləyir.',
     orgmem:
