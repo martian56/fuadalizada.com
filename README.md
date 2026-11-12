@@ -7,6 +7,7 @@
 
 # fuadalizada.com
 
+[![CI](https://img.shields.io/github/actions/workflow/status/martian56/fuadalizada.com/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/martian56/fuadalizada.com/actions/workflows/ci.yml)
 [![Live](https://img.shields.io/website?url=https%3A%2F%2Ffuadalizada.com&style=flat-square&label=live&up_message=online&color=1F6F43)](https://fuadalizada.com)
 ![Version](https://img.shields.io/github/package-json/v/martian56/fuadalizada.com?style=flat-square&color=14110E)
 ![React](https://img.shields.io/badge/React-19-14110E?style=flat-square&logo=react&logoColor=61DAFB)
