@@ -1,6 +1,6 @@
 name: Release
 
-# Push a tag like v0.3.0 to publish a GitHub release for that version.
+# Push an annotated tag like v0.3.0 to publish a GitHub release for that version.
 on:
   push:
     tags: ['v*.*.*']
@@ -35,11 +35,20 @@ jobs:
       - name: Package build
         run: cd dist && zip -qr "../fuadalizada.com-$GITHUB_REF_NAME.zip" .
 
+      # The annotated tag's message goes at the top of the release notes,
+      # and GitHub's list of merged PRs is appended below it.
+      - name: Read tag message
+        run: |
+          git fetch --force origin "refs/tags/$GITHUB_REF_NAME:refs/tags/$GITHUB_REF_NAME"
+          git tag -l --format='%(contents)' "$GITHUB_REF_NAME" | sed '/-----BEGIN PGP SIGNATURE-----/,$d' > notes.md
+          cat notes.md
+
       - name: Create release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release create "$GITHUB_REF_NAME" "fuadalizada.com-$GITHUB_REF_NAME.zip" \
             --title "$GITHUB_REF_NAME" \
+            --notes-file notes.md \
             --generate-notes \
             --verify-tag
